@@ -1,0 +1,15 @@
+{
+  "name": "groovebox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "jshint": "^2.9.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nicolas Mathieu",
+  "license": "ISC"
+}
