@@ -1,5 +1,5 @@
 *{
-	box-sizing:border-box;
+box-sizing:border-box;
 }
 $bcExt:black;
 $bcInt:#a3a1a1;
@@ -7,295 +7,295 @@ $bcButton:#75D701;
 $bcButtonHover:purple;
 
 h1{
-	text-align:center;
-	
+text-align:center;
+
 }
 
 .blockExt{
-	display:flex;
-	justify-content:space-between;
-	align-items:center;
-	margin:auto;
-	height:25em;
-	width:27em;
-	border:0.1em solid black;
-	background-color:$bcExt;
-	// @media screen and()
+display:flex;
+justify-content:space-between;
+align-items:center;
+margin:auto;
+height:25em;
+width:27em;
+border:0.1em solid black;
+background-color:$bcExt;
+// @media screen and()
 }
 .blockInt{
-	display:flex;
-	flex-direction:column;
-	flex-wrap:nowrap;
-	// justify-content:center;
-	align-items:center;
-	margin:auto;
-	height:20em;
-	width:22em;
-	// border:0.1em solid black;
-	background-color:$bcInt;
+display:flex;
+flex-direction:column;
+flex-wrap:nowrap;
+// justify-content:center;
+align-items:center;
+margin:auto;
+height:20em;
+width:22em;
+// border:0.1em solid black;
+background-color:$bcInt;
 }
 
 .ecran{
-	display:flex;
-	justify-content:center;
-	align-items:center;
-	position:relative;
-	overflow:hidden;
-	margin-top:5%;
-	height:4em;
-	width:21em;
-	border:0.2em double #75D701;
-	background-color:white;
-	color:$bcButtonHover;
+display:flex;
+justify-content:center;
+align-items:center;
+position:relative;
+overflow:hidden;
+margin-top:5%;
+height:4em;
+width:21em;
+border:0.2em double #75D701;
+background-color:white;
+color:$bcButtonHover;
 }
 #defil{
-	position:absolute;
-	background-color:transparent;
-	float:right;
+position:absolute;
+background-color:transparent;
+float:right;
 }
 .rang1{
-	display:flex;
-	justify-content:space-around;
-	align-items:center;
-	margin-top:5%;
-	height:2.5em;
-	width:21em;
-	// border:0.1em solid black;
-	.pad13{
-		button{
-			display:flex;
-			justify-content:space-between;
-			height: 2em;
-			width:5em;
-			border:0.2em inset black;
-			background-color:$bcButton;
-		}
-		:hover{
-			background-color:$bcButtonHover;
-		}
-	}
-	.pad14{
-		button{
-			display:flex;
-			justify-content:space-between;
-			height: 2em;
-			width:5em;
-			border:0.2em solid black;
-			background-color:$bcButton;
-		}
-		:hover{
-			background-color:$bcButtonHover;
-		}
-	}
-	.pad15{
-		button{
-			display:flex;
-			justify-content:space-between;
-			height: 2em;
-			width:5em;
-			border:0.2em solid black;
-			background-color:$bcButton;
-		}
-		:hover{
-			background-color:$bcButtonHover;
-		}
-	}
-	.pad16{
-		button{
-			display:flex;
-			justify-content:space-between;
-			height: 2em;
-			width:5em;
-			border:0.2em solid black;
-			background-color:$bcButton;
-		}
-		:hover{
-			background-color:$bcButtonHover;
-		}
-	}
+display:flex;
+justify-content:space-around;
+align-items:center;
+margin-top:5%;
+height:2.5em;
+width:21em;
+// border:0.1em solid black;
+.pad13{
+button{
+display:flex;
+justify-content:space-between;
+height: 2em;
+width:5em;
+border:0.2em inset black;
+background-color:$bcButton;
+}
+:hover{
+background-color:$bcButtonHover;
+}
+}
+.pad14{
+button{
+display:flex;
+justify-content:space-between;
+height: 2em;
+width:5em;
+border:0.2em solid black;
+background-color:$bcButton;
+}
+:hover{
+background-color:$bcButtonHover;
+}
+}
+.pad15{
+button{
+display:flex;
+justify-content:space-between;
+height: 2em;
+width:5em;
+border:0.2em solid black;
+background-color:$bcButton;
+}
+:hover{
+background-color:$bcButtonHover;
+}
+}
+.pad16{
+button{
+display:flex;
+justify-content:space-between;
+height: 2em;
+width:5em;
+border:0.2em solid black;
+background-color:$bcButton;
+}
+:hover{
+background-color:$bcButtonHover;
+}
+}
 }
 .rang2{
-	display:flex;
-	justify-content:space-around;
-	align-items:center;
-	margin-top:5%;
-	height:2.5em;
-	width:21em;
-	// border:0.1em solid black;
-	.pad9{
-		button{
-			display:flex;
-			justify-content:space-between;
-			height: 2em;
-			width:5em;
-			border:0.2em solid black;
-			background-color:$bcButton;
-		}
-		:hover{
-			background-color:$bcButtonHover;
-		}
-	}
-	.pad10{
-		button{
-			display:flex;
-			justify-content:space-between;
-			height: 2em;
-			width:5em;
-			border:0.2em solid black;
-			background-color:$bcButton;
-		}
-		:hover{
-			background-color:$bcButtonHover;
-		}
-	}
-	.pad11{
-		button{
-			display:flex;
-			justify-content:space-between;
-			height: 2em;
-			width:5em;
-			border:0.2em solid black;
-			background-color:$bcButton;
-		}
-		:hover{
-			background-color:$bcButtonHover;
-		}
-	}
-	.pad12{
-		button{
-			display:flex;
-			justify-content:space-between;
-			height: 2em;
-			width:5em;
-			border:0.2em solid black;
-			background-color:$bcButton;
-		}
-		:hover{
-			background-color:$bcButtonHover;
-		}
-	}
+display:flex;
+justify-content:space-around;
+align-items:center;
+margin-top:5%;
+height:2.5em;
+width:21em;
+// border:0.1em solid black;
+.pad9{
+button{
+display:flex;
+justify-content:space-between;
+height: 2em;
+width:5em;
+border:0.2em solid black;
+background-color:$bcButton;
+}
+:hover{
+background-color:$bcButtonHover;
+}
+}
+.pad10{
+button{
+display:flex;
+justify-content:space-between;
+height: 2em;
+width:5em;
+border:0.2em solid black;
+background-color:$bcButton;
+}
+:hover{
+background-color:$bcButtonHover;
+}
+}
+.pad11{
+button{
+display:flex;
+justify-content:space-between;
+height: 2em;
+width:5em;
+border:0.2em solid black;
+background-color:$bcButton;
+}
+:hover{
+background-color:$bcButtonHover;
+}
+}
+.pad12{
+button{
+display:flex;
+justify-content:space-between;
+height: 2em;
+width:5em;
+border:0.2em solid black;
+background-color:$bcButton;
+}
+:hover{
+background-color:$bcButtonHover;
+}
+}
 }
 .rang3{
-	display:flex;
-	justify-content:space-around;
-	align-items:center;
-	margin-top:5%;
-	height:2.5em;
-	width:21em;
-	// border:0.1em solid black;
-	.pad5{
-		button{
-			display:flex;
-			justify-content:space-between;
-			height: 2em;
-			width:5em;
-			border:0.2em solid black;
-			background-color:$bcButton;
-		}
-		:hover{
-			background-color:$bcButtonHover;
-		}
-	}
-	.pad6{
-		button{
-			display:flex;
-			justify-content:space-between;
-			height: 2em;
-			width:5em;
-			border:0.2em solid black;
-			background-color:$bcButton;
-		}
-		:hover{
-			background-color:$bcButtonHover;
-		}
-	}
-	.pad7{
-		button{
-			display:flex;
-			justify-content:space-between;
-			height: 2em;
-			width:5em;
-			border:0.2em solid black;
-			background-color:$bcButton;
-		}
-		:hover{
-			background-color:$bcButtonHover;
-		}
-	}
-	.pad8{
-		button{
-			display:flex;
-			justify-content:space-between;
-			height: 2em;
-			width:5em;
-			border:0.2em solid black;
-			background-color:$bcButton;
-		}
-		:hover{
-			background-color:$bcButtonHover;
-		}
-	}
+display:flex;
+justify-content:space-around;
+align-items:center;
+margin-top:5%;
+height:2.5em;
+width:21em;
+// border:0.1em solid black;
+.pad5{
+button{
+display:flex;
+justify-content:space-between;
+height: 2em;
+width:5em;
+border:0.2em solid black;
+background-color:$bcButton;
+}
+:hover{
+background-color:$bcButtonHover;
+}
+}
+.pad6{
+button{
+display:flex;
+justify-content:space-between;
+height: 2em;
+width:5em;
+border:0.2em solid black;
+background-color:$bcButton;
+}
+:hover{
+background-color:$bcButtonHover;
+}
+}
+.pad7{
+button{
+display:flex;
+justify-content:space-between;
+height: 2em;
+width:5em;
+border:0.2em solid black;
+background-color:$bcButton;
+}
+:hover{
+background-color:$bcButtonHover;
+}
+}
+.pad8{
+button{
+display:flex;
+justify-content:space-between;
+height: 2em;
+width:5em;
+border:0.2em solid black;
+background-color:$bcButton;
+}
+:hover{
+background-color:$bcButtonHover;
+}
+}
 }
 .rang4{
-	display:flex;
-	justify-content:space-around;
-	align-items:center;
-	margin-top:5%;
-	height:2.5em;
-	width:21em;
-	// border:0.1em solid black;
-	.pad1{
-		button{
-			display:flex;
-			justify-content:space-between;
-			height: 2em;
-			width:5em;
-			border:0.2em solid black;
-			background-color:$bcButton;
-		}
-		:hover{
-			background-color:$bcButtonHover;
-		}
-	}
-	.pad2{
-		button{
-			display:flex;
-			justify-content:space-between;
-			height: 2em;
-			width:5em;
-			border:0.2em solid black;
-			background-color:$bcButton;
-		}
-		:hover{
-			background-color:$bcButtonHover;
-		}
-	}
-	.pad3{
-		button{
-			display:flex;
-			justify-content:space-between;
-			height: 2em;
-			width:5em;
-			border:0.2em solid black;
-			background-color:$bcButton;
-		}
-		:hover{
-			background-color:$bcButtonHover;
-		}
-	}
-	.pad4{
-		button{
-			display:flex;
-			justify-content:space-between;
-			height: 2em;
-			width:5em;
-			border:0.2em solid black;
-			background-color:$bcButton;
-		}
-		:hover{
-			background-color:$bcButtonHover;
-		}
-	}
+display:flex;
+justify-content:space-around;
+align-items:center;
+margin-top:5%;
+height:2.5em;
+width:21em;
+// border:0.1em solid black;
+.pad1{
+button{
+display:flex;
+justify-content:space-between;
+height: 2em;
+width:5em;
+border:0.2em solid black;
+background-color:$bcButton;
+}
+:hover{
+background-color:$bcButtonHover;
+}
+}
+.pad2{
+button{
+display:flex;
+justify-content:space-between;
+height: 2em;
+width:5em;
+border:0.2em solid black;
+background-color:$bcButton;
+}
+:hover{
+background-color:$bcButtonHover;
+}
+}
+.pad3{
+button{
+display:flex;
+justify-content:space-between;
+height: 2em;
+width:5em;
+border:0.2em solid black;
+background-color:$bcButton;
+}
+:hover{
+background-color:$bcButtonHover;
+}
+}
+.pad4{
+button{
+display:flex;
+justify-content:space-between;
+height: 2em;
+width:5em;
+border:0.2em solid black;
+background-color:$bcButton;
+}
+:hover{
+background-color:$bcButtonHover;
+}
+}
 }
 
 

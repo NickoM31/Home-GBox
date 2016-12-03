@@ -30,6 +30,7 @@
 		},
 		button2 : function(){
 			$(".bt2").on('click',function(){
+				$("#defil").html("Snare");
 				console.log('clikkkkkk')
 			});
 		},
@@ -109,10 +110,10 @@
 		defil : function(){
 			clearInterval(this.intervalId);
 			this.intervalId = setInterval(function(){
-				$("#defil").animate({marginLeft:-130},3000,function(){
-					$(this).css({marginLeft:+130}).find("#defil").after($(this).find("#defil"));
+				$("#defil").animate({marginLeft:-180},3000,function(){
+					$(this).css({marginLeft:+180}).find("#defil").after($(this).find("#defil"));
 				})
-			}, 2000);
+			}, 0);
 		},
 	};
 	
