@@ -21,22 +21,32 @@
 		},
 
 		button1 : function(){
-			$(".bt1").on('click',function(){
+			$('.pad1').on('click', playSound);
+
+			function playSound() {  
+				document.querySelector('.pd1').play();
+				$("#defil").html("Kick");
 				app.defil();
-			$("#defil").html("Kick");
-				console.log('clikkkkkk');
-				
-			});
+			};
 		},
+
 		button2 : function(){
-			$(".bt2").on('click',function(){
-				console.log('clikkkkkk')
-			});
+			$('.pad2').on('click', playSound);
+
+			function playSound() {  
+				document.querySelector('.pd2').play();
+				$("#defil").html("Snare");
+				app.defil();
+			};
 		},
 		button3 : function(){
-			$(".bt3").on('click',function(){
-				console.log('clikkkkkk')
-			});
+			$('.pad3').on('click', playSound);
+
+			function playSound() {  
+				document.querySelector('.pd3').play();
+				$("#defil").html("Hi Hat1");
+				app.defil();
+			};
 		},
 		button4 : function(){
 			$(".bt4").on('click',function(){
@@ -44,14 +54,22 @@
 			});
 		},
 		button5 : function(){
-			$(".bt5").on('click',function(){
-				console.log('clikkkkkk')
-			});
+			$('.pad5').on('click', playSound);
+
+			function playSound() {  
+				document.querySelector('.pd5').play();
+				$("#defil").html("Kick2");
+				app.defil();
+			};
 		},
 		button6 : function(){
-			$(".bt6").on('click',function(){
-				console.log('clikkkkkk')
-			});
+			$('.pad6').on('click', playSound);
+
+			function playSound() {  
+				document.querySelector('.pd6').play();
+				$("#defil").html("Snare2");
+				app.defil();
+			};
 		},
 		button7 : function(){
 			$(".bt7").on('click',function(){
@@ -104,18 +122,16 @@
 			});
 		},
 
-// animation text
-
-		defil : function(){
-			clearInterval(this.intervalId);
-			this.intervalId = setInterval(function(){
-				$("#defil").animate({marginLeft:-130},3000,function(){
-					$(this).css({marginLeft:+130}).find("#defil").after($(this).find("#defil"));
-				})
-			}, 2000);
-		},
+		// defil : function(){
+		// 	clearInterval(this.intervalId);
+		// 	this.intervalId = setInterval(function(){
+		// 		$("#defil").animate({marginLeft:-180},3000,function(){
+		// 			$(this).css({marginLeft:+180}).find("#defil").after($(this).find("#defil"));
+		// 		})
+		// 	}, 0);
+		// },
 	};
-	
+
 	$(document).ready(function(){
 		app.init();
 	});
