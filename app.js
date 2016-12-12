@@ -31,6 +31,7 @@
 		},
 
 		button2 : function(){
+
 			$('.pad2').on('click', playSound);
 
 			function playSound() {  
@@ -38,6 +39,7 @@
 				$("#defil").html("Snare");
 				app.defil();
 			};
+
 		},
 		button3 : function(){
 			$('.pad3').on('click', playSound);
@@ -122,6 +124,7 @@
 			});
 		},
 
+
 		// defil : function(){
 		// 	clearInterval(this.intervalId);
 		// 	this.intervalId = setInterval(function(){
@@ -130,6 +133,7 @@
 		// 		})
 		// 	}, 0);
 		// },
+
 	};
 
 	$(document).ready(function(){
